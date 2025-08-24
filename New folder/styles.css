@@ -1,0 +1,43 @@
+
+.profile-img{   
+    border: solid;
+    border-radius: 10%;
+    width: 500px;
+}
+
+.first{
+    background: linear-gradient(300deg,#154D71,#1C6EA4,#33A1E0,#FFF9AF);
+    background-size: 300% 300%;
+    animation:gradient-animation 10s ease-in-out infinite;
+    height: 890px;
+}
+#contact{
+    background: linear-gradient(300deg,#56DFCF,rebeccapurple);
+    background-size: 200% 200%;
+    animation: gradient-animation 10s ease infinite;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% 
+    {
+        background-position: 0% 50%;
+    }
+}
+.prev,
+.next {
+    filter: invert(1); /* makes the arrows white */
+}
+#myCarousel3 p{
+    color: black;
+}
+.about-me{
+    background-color:#FFF9AF;
+}
